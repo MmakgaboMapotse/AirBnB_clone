@@ -1,0 +1,40 @@
+.filters {
+    display: flex;
+    align-items: stretch;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.locations {
+    border-right: none;
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.search-button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 25%;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    transition: opacity 0.3s;
+}
+
+.search-button:hover {
+    opacity: 0.9;
+}
