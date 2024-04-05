@@ -1,0 +1,14 @@
+header {
+    background-color: #000;
+    color: white;
+}
+
+.logo {
+    width: 100px; /* Adjust according to your logo size */
+    height: 50px; /* Adjust according to your logo size */
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
